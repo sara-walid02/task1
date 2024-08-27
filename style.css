@@ -1,0 +1,56 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box ;
+
+
+}
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent{
+    color: white;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    gap: 15px ;
+    border-radius: 5px;
+
+
+}
+
+.parent div{
+ font-size: small;
+}
+
+.parent img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.parent div p{
+    color: yellowgreen;
+}
+ul{
+    list-style:none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+
+}
+ul li{
+    background-color: gray;
+    margin: 10px;
+    border-radius: 5px;
+}
